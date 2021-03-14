@@ -32,6 +32,10 @@ python3 main.py
 
 - iPhone部分适用：iPhone 7之后的机型，默认照片格式为HEIC，通过微信发送到电脑会丢失EXIF信息，解决方法待寻， 有条件可以使用Airdrop。其他机型可使用安卓传输方式。
 
+## 已知缺漏
+
+- Mac端ExifPic.app第一次运行会疑似闪退，无需任何操作，会自动重新启动
+
 ## 邮箱
 
 beardwatt@gmail.com
