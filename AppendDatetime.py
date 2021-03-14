@@ -83,7 +83,8 @@ class AppendDatetime:
     def rename(self):
         if self.paths_list:
             for old_name, new_name in zip(self.paths_list, self.get_new_names()):
-                os.rename(old_name, new_name)
+                if new_name:
+                    os.rename(old_name, new_name)
 
 
 if __name__ == '__main__':
