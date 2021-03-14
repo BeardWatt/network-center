@@ -2,6 +2,8 @@
 
 [TOC]
 
+<img src="readme.assets/image-20210314111834936.png" alt="image-20210314111834936" style="zoom:33%;" />
+
 ## 功能
 
 自动根据照片的EXIF信息，在照片文件名后添加拍摄日期（月、日）和时间（时、分）
@@ -14,11 +16,11 @@ python3 main.py
 
 ## 运行截图
 
-<img src="说明.assets/image-20210313215033101.png" alt="image-20210313215033101" style="zoom:35%;" />
+<img src="readme.assets/image-20210313215033101.png" alt="image-20210313215033101" style="zoom:35%;" />
 
-<img src="说明.assets/image-20210313215307935.png" alt="image-20210313215307935" style="zoom:35%;" />
+<img src="readme.assets/image-20210313215307935.png" alt="image-20210313215307935" style="zoom:35%;" />
 
-<img src="说明.assets/image-20210313215451526.png" alt="image-20210313215451526" style="zoom:35%;" />
+<img src="readme.assets/image-20210313215451526.png" alt="image-20210313215451526" style="zoom:35%;" />
 
 ## 依赖
 
