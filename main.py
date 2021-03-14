@@ -71,12 +71,12 @@ class AppendDatetime:
                                os.path.splitext(filename)[1]
                     tot += 1
 
-                print(new_name)
+                # print(new_name)
                 new_names.append(new_name)
                 # os.rename(filename, new_name)
             else:
                 new_names.append('')
-                print('No {} found'.format(FIELD))
+                # print('No {} found'.format(FIELD))
 
         for file_path in self.paths_list:
             process(file_path)
