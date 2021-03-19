@@ -2,7 +2,7 @@
 
 [TOC]
 
-<img src="readme.assets/image-20210314111834936.png" alt="image-20210314111834936" style="zoom:33%;" />
+<img src="readme.assets/install2macOS.png" alt="install2macOS" style="zoom:30%;" />
 
 ## 功能
 
@@ -10,34 +10,47 @@
 
 ## 运行方式
 
+运行可执行文件，或
+
 ```bash
+# 源码运行
 python3 main.py
 ```
 
-## 运行截图
+## 运行效果截图
 
-<img src="readme.assets/image-20210313215033101.png" alt="image-20210313215033101" style="zoom:35%;" />
+### macOS
 
-<img src="readme.assets/image-20210313215307935.png" alt="image-20210313215307935" style="zoom:35%;" />
+![ExifPic@macOS](readme.assets/ExifPic@macOS.jpg)
 
-<img src="readme.assets/image-20210313215451526.png" alt="image-20210313215451526" style="zoom:35%;" />
+### Windows 10
+
+![ExifPic@win10](readme.assets/ExifPic@win10.PNG)
+
+### Windows 7
+
+![ExifPic@win7](readme.assets/ExifPic@win7.PNG)
 
 ## 依赖
 
 见requirements.txt
 
-## 注意事项
+## 手机发送照片到电脑
 
-重命名必须依赖EXIF信息
+**重命名必须依赖EXIF信息**
 
-- 安卓通用：手机拍摄的照片可以使用微信，发送原图到电脑。
+- 安卓通用：使用手机相机拍摄的照片，可以使用微信，发送原图到电脑。**不能**直接用微信拍照发送，会丢失EXIF信息。
 
 - iPhone部分适用：iPhone 7之后的机型，默认照片格式为HEIC，通过微信发送到电脑会丢失EXIF信息，解决方法待寻， 有条件可以使用Airdrop。其他机型可使用安卓传输方式。
 
-## 已知缺漏
+## 已知缺漏及解决方法
 
 - Mac端ExifPic.app第一次运行会疑似闪退，无需任何操作，会自动重新启动
+- Windows端第一次启动需要较长时间，无需任何操作，稍等片刻即可
+- 在Windows 7上，可能会报错`api-ms-win-crt-process-l1-1-0.dll 丢失`，参考[这个](https://blog.csdn.net/gangeqian2/article/details/79307416)网站
+  1. 打开Windows Update服务
+  2. 安装[KB2999226](https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows)、[KB3118401](https://support.microsoft.com/en-us/help/3118401/update-for-universal-c-runtime-in-windows)两个补丁
 
-## 邮箱
+## 反馈邮箱
 
 beardwatt@gmail.com
